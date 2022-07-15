@@ -1,0 +1,28 @@
+@media (min-width: 1400px)
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100%;
+}
+
+.col-lg-6{
+    background-color: rgba(0,0,0,.05);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.col-10 col-sm-8 col-lg-6{
+    border-radius: 20px;
+    width: 10px;
+    background-color:black;
+
+}
+@media (min-width: 768px)
+.row-cols-md-3>* {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+body{
+     background-color: #F9F2ED;
+    justify-content: center;
+}
+
